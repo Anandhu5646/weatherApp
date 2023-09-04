@@ -22,4 +22,63 @@
     border-radius: 40px;
     padding-left: 40px;
     color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background-color: azure;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    font-weight: 400;
+
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+.data-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.element{
+    margin: auto;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+
+}
+.data{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -12px
+
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon{
+    margin-top: 10px;
 }
