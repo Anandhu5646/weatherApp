@@ -52,6 +52,7 @@
     display: flex;
     justify-content: center;
     color: white;
+    font-family: roboto;
     font-size: 60px;
     font-weight: 400;
 }
@@ -61,7 +62,7 @@
     justify-content: center;
     margin-top: 50px;
 }
-.element{
+.elements{
     margin: auto;
     display: flex;
     gap: 12px;
@@ -69,7 +70,7 @@
 
 }
 .data{
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 400;
     margin-top: -12px
 
@@ -78,7 +79,6 @@
     font-size: 20px;
     font-weight: 400;
 }
-
 .icon{
     margin-top: 10px;
 }
