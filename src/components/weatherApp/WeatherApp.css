@@ -1,9 +1,9 @@
 .container{
     width: 607px;
-    height: 800px;
+    height: 820px;
     background: linear-gradient(230deg,rgb(65, 13, 210),rgba(58, 7, 58, 0.831));
     margin: auto;
-    margin-top: 75px;
+    margin-top: 40px;
     border-radius: 12px;
 }
 .top-bar{
@@ -36,15 +36,13 @@
     cursor: pointer;
 }
 .weather-image{
-    margin-top: 29px;
-    display: flex;
-    justify-content: center;
+    margin-top: 15px;
 }
 .weather-temp{
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 100px;
+    font-size: 95px;
     font-weight: 400;
 
 }
@@ -81,4 +79,37 @@
 }
 .icon{
     margin-top: 10px;
+}
+.weather-des{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: -40px;
+}
+@media (max-width:600px){
+   
+    .container{
+        width: 370px;
+        height: 770px;
+    }
+    .top-bar input{
+        width: 180px;
+    }
+    .weather-temp{
+        font-size: 75px;
+    }
+    .weather-location{
+        font-size: 50px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .humidity-percent{
+        font-size: 23px;
+    }
+    .wind-rate{
+        font-size: 23px;
+    }
 }
